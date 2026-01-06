@@ -47,7 +47,6 @@ body {
 
 /* Header */
 .header {
-    background-color: var(--bg-primary);
     border-bottom: 1px solid var(--border-color);
     padding: 20px 0;
     position: sticky;
@@ -160,7 +159,7 @@ body {
 }
 
 .email-link:hover {
-    color: #6ba3f5;
+    color: var(--accent-color);
     text-decoration: underline;
 }
 
